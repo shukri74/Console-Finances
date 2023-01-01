@@ -133,7 +133,7 @@ let greatestIncrease = {
 for(const finance of finances){
     if(finance[1]> greatestIncrease.amount) {
         greatestIncrease.date = finance[0];
-        greatestIncrease.date = finance[1];
+        greatestIncrease.amount = finance[1];
     }
 }
 
@@ -150,7 +150,12 @@ let greatestDecrease = {
 for(const finance of finances){
     if(finance[1]< greatestDecrease.amount) {
         greatestDecrease.date = finance[0];
-        greatestDecrease.date = finance[1];
+        greatestDecrease.amount = finance[1];
     }
 }
 
+function rounding(number){
+    return Math.ceil(number * 100) / 100
+}
+
+console.log()
