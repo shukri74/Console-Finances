@@ -120,7 +120,7 @@ const averageChange =  change /(months - 1);
 
 /*console.log(averageChange)*/
 
-/* object created to calculate the greatest increase in profits and the date of the change*/
+/* object created to store the greatest increase in profits and the date of the change*/
 
 let greatestIncrease = {
     date: finances[0][0],
@@ -128,4 +128,12 @@ let greatestIncrease = {
 
 };
 
+/* loop to calculate the greatest increase in profits and the date of the change*/
+
+for(const finance of finances){
+    if(finance[1]> greatestIncrease.amount) {
+        greatestIncrease.date = finance[0];
+        greatestIncrease.date = finance[1];
+    }
+}
 
