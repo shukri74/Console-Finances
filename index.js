@@ -154,8 +154,17 @@ for(const finance of finances){
     }
 }
 
+/* function to round numbers to 2 D.P*/
+
 function rounding(number){
     return Math.ceil(number * 100) / 100
 }
 
-console.log()
+console.log("```text")
+console.log("Financial Analysis")
+console.log("----------------------------")
+console.log("Total Months: $"  + months)
+console.log("Total: " + total)
+console.log("Average Change: " + rounding(averageChange))
+console.log("Greatest increase: " + greatestIncrease.date + greatestIncrease.amount)
+console.log("Greatest Decrease: " + greatestDecrease.date + greatestDecrease.amount)
