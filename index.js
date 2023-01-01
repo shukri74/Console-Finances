@@ -100,7 +100,7 @@ for( const finance of finances) {
 
 }
 
-console.log(total)
+/*console.log(total)*/
 
 /* This loop calculates the change in profit from month to month*/
 
@@ -165,6 +165,6 @@ console.log("Financial Analysis")
 console.log("----------------------------")
 console.log("Total Months: "  + months)
 console.log("Total: " + "$" + total)
-console.log("Average Change: " + rounding(averageChange))
+console.log("Average Change: " + "$" + rounding(averageChange))
 console.log("Greatest increase: " + greatestIncrease.date + " $"+ (greatestIncrease.amount))
 console.log("Greatest decrease: " + greatestDecrease.date + " $"+ (greatestDecrease.amount))
