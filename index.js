@@ -100,3 +100,22 @@ for( let finance of finances) {
 
 }
 
+/*console.log(total)*/
+
+/* This loop calculates the change in profit from month to month*/
+
+let change = 0;
+
+for(let i = 1; i < finances.length; i++){
+ 
+    change = finances[i][1] - finances[i-1][1];
+
+}
+
+/*console.log(change)*/
+
+/*gets average of changes by dividing by months (-1 because we started from i = 1)*/
+
+const averageChange =  change /(months - 1);
+
+console.log(averageChange)
