@@ -87,6 +87,6 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-const months = finances.length
+/* This calculates the number of months by using the .length property*/
 
-const values = finances.map()
+const months = finances.length
