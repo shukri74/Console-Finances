@@ -90,3 +90,13 @@ var finances = [
 /* This calculates the number of months by using the .length property*/
 
 const months = finances.length
+
+/* This is a loop which calculates the total profits */
+
+let total = 0;
+
+for( let finance of finances) {
+    total += finance[1]
+
+}
+
