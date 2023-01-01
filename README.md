@@ -11,7 +11,7 @@ The task is to write a javascript program which calculates that uses the data in
 
 The results were then printed to the console
 
-![Screenshot]("C:\Users\LENOVO\Downloads\bootcamp\Console-Finances\console analysis.PNG")
+![Screenshot](console%20analysis.PNG)
 
 
 ## Installation
