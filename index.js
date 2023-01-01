@@ -137,3 +137,20 @@ for(const finance of finances){
     }
 }
 
+/* object created to store the greatest decrease in profits and the date of the change*/
+
+let greatestDecrease = {
+    date: finances[0][0],
+    amount: finances[0][1]
+
+};
+
+/* loop to calculate the greatest decrease in profits and the date of the change*/
+
+for(const finance of finances){
+    if(finance[1]< greatestDecrease.amount) {
+        greatestDecrease.date = finance[0];
+        greatestDecrease.date = finance[1];
+    }
+}
+
