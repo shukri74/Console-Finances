@@ -95,12 +95,12 @@ const months = finances.length
 
 let total = 0;
 
-for( let finance of finances) {
+for( const finance of finances) {
     total += finance[1]
 
 }
 
-/*console.log(total)*/
+console.log(total)
 
 /* This loop calculates the change in profit from month to month*/
 
@@ -118,4 +118,14 @@ for(let i = 1; i < finances.length; i++){
 
 const averageChange =  change /(months - 1);
 
-console.log(averageChange)
+/*console.log(averageChange)*/
+
+/* object created to calculate the greatest increase in profits and the date of the change*/
+
+let greatestIncrease = {
+    date: finances[0][0],
+    amount: finances[0][1]
+
+};
+
+
