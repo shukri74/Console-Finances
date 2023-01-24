@@ -9,6 +9,8 @@ The task is to write a javascript program which calculates that uses the data in
 - Average change in profits between months
 - Greatest Increase and Decrease in profit during that period
 
+Deployed application: https://shukri74.github.io/console-finances/
+
 The results were then printed to the console
 
 ![Screenshot](console%20analysis.PNG)
